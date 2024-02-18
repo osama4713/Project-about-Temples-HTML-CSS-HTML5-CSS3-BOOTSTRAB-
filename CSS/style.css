@@ -15,14 +15,21 @@
     transform: scale(1.05 , 1.05);
 }
 /* ------------------------------------------  article  --------------------------------- */
-article{
-    margin-left: 93%;
-    margin-top: 180px ;
+.contact-us{
     position: fixed;
+    bottom: 100px;
+    right: 5px;
     z-index: 50;
 }
+.contact-us ul li a{
+    text-align: center;
+    width: 60px;
+    height: 60px; 
+    display: block;
+    padding-top:3px ;
+}
 .icon-art{
-    font-size: 50px;
+    font-size: 45px;
     color: rgb(113, 113, 113);
 }
 .icon-art:hover{
@@ -41,12 +48,8 @@ article{
     text-decoration: none;
 }
 /* ------------------------------------------  section 1  --------------------------------- */
-.bgs1{
-    background-color: rgba(61, 61, 61, 0.767);
-}
-/* ------------------------------------------  section 2  --------------------------------- */
-.bgs2{
-    color: rgb(255, 255, 255);
+.gredient{
+    text-shadow: 1px 12px 10px rgb(36, 254, 43);
 }
 /* ------------------------------------------  section 3  --------------------------------- */
 .bgs3{
